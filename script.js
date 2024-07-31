@@ -1,9 +1,9 @@
 document.getElementById('randomWordButton').addEventListener('click', function() {
     const words = [
-        "quantum", "relativity", "metaphor", "silhouette", "algorithm", 
-        "philosophy", "economics", "psychoanalysis", "surrealism", "entropy",
-        "paradox", "symphony", "zeitgeist", "vortex", "archipelago",
-        "bureaucracy", "kaleidoscope", "sphinx", "cryptocurrency", "xenophobia"
+ "Pikachu", "Surfer", "Eiffel Tower", "Sphinx", "Black Hole", 
+        "Vincent van Gogh", "Sailboat", "Dragon", "Shakespeare", "Hamburger", 
+        "Windsurfer", "Rainforest", "Smartphone", "Kaleidoscope", "Northern Lights",
+        "Taj Mahal", "Piano", "Saturn", "DNA Helix", "Zombie"
     ];
     let availableWords = sessionStorage.getItem('availableWords') ? JSON.parse(sessionStorage.getItem('availableWords')) : words.slice();
     let usedWords = sessionStorage.getItem('usedWords') ? JSON.parse(sessionStorage.getItem('usedWords')) : [];
